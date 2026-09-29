@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.rafael.googlenocarro'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.rafael.googlenocarro'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Biblioteca oficial do Google para apps no Android Auto
+    implementation 'androidx.car.app:app:1.4.0'
+}

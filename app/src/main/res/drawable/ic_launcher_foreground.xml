@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- aro da lupa em 4 cores -->
+    <path android:strokeColor="#4285F4" android:strokeWidth="7" android:fillColor="#00000000"
+        android:pathData="M48,30 A18,18 0 0,1 66,48" />
+    <path android:strokeColor="#34A853" android:strokeWidth="7" android:fillColor="#00000000"
+        android:pathData="M66,48 A18,18 0 0,1 48,66" />
+    <path android:strokeColor="#FBBC05" android:strokeWidth="7" android:fillColor="#00000000"
+        android:pathData="M48,66 A18,18 0 0,1 30,48" />
+    <path android:strokeColor="#EA4335" android:strokeWidth="7" android:fillColor="#00000000"
+        android:pathData="M30,48 A18,18 0 0,1 48,30" />
+    <!-- cabo -->
+    <path android:strokeColor="#5F6368" android:strokeWidth="8" android:strokeLineCap="round"
+        android:pathData="M61,61 L76,76" />
+    <!-- carrinho dentro da lente -->
+    <path android:fillColor="#5F6368"
+        android:pathData="M39,50 L41,43 Q42,41 44,41 L52,41 Q54,41 55,43 L57,50 Q58,50 58,52 L58,55 L38,55 L38,52 Q38,50 39,50 Z" />
+</vector>
