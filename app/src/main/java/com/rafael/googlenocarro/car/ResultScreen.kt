@@ -30,7 +30,7 @@ class ResultScreen(ctx: CarContext, private val query: String) : Screen(ctx) {
         History.add(ctx, query)
         tts = TextToSpeech(ctx) { status ->
             if (status == TextToSpeech.SUCCESS) {
-                tts?.language = Locale("pt", "BR")
+                tts?.setLanguage(Locale("pt", "BR"))
                 tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
                     override fun onStart(utteranceId: String?) {}
                     override fun onDone(utteranceId: String?) {
